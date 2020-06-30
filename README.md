@@ -24,4 +24,11 @@ __2.__ From the Anaconda prompt in Windows or Unix install the requirement packa
 ```
 (it will take a time, and be sure you have 5GB available in your HD for Conda installation)
 
-__3.__ After the main requirements are installed you must install the Deep Inverse Optimization (https://github.com/tankconcordia/deep_inv_opt)
+__3.__ After the main requirements are installed you must install the Deep Inverse Optimization (https://github.com/tankconcordia/deep_inv_opt). Download the repository and setup the code as part of the enviroment variable as they suggested in the repository:
+
+```bash  
+   python setup.py develop
+```
+(run this on the deep_inv_opt main directory where the file setup.py is located).
+
+

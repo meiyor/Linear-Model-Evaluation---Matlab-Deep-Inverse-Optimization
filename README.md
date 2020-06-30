@@ -38,7 +38,7 @@ After Deep Inverse Optimization repository is set in Anaconda you can go to the 
    matlab_interface_python(40,20);
 ```
 
-The previous command will create an input vector of 40 random points and 40 target points from a uniform distribution between 0 ans 1, and will proceed with 20 training iterations. The final output of the model will be something like this:
+The previous command will create an input vector of 40 random points and 40 target points from a uniform distribution between 0 and 1. You can modify the model on matlab and this command will proceed with 20 training iterations on deep_inv_opt after you run it. The final output on the Matlab command prompt will be something like this:
 ```bash 
      inverse_parametric_linprog[0001]: loss=0.101617 weights=[2.8000]
      inverse_parametric_linprog[0002]: loss=0.081102 weights=[2.9568]

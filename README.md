@@ -62,4 +62,6 @@ The previous command will create an input vector of 40 random points and 40 targ
      inverse_parametric_linprog[0020]: loss=0.061193 weights=[3.1177]
      inverse_parametric_linprog[done]: loss=0.061193 weights=[3.1177]
 ```
-     
+For this particular model we want to make an inverse optimization on the paramater
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)

@@ -3,7 +3,7 @@ load_anaconda_packages()
 cd deep_inv_opt-master
 %% learning range for w. This range need to be defined to find the better convergence on the inverse optimization. Please refer to the README file for more detail
 w=[2 6];
-%% input data definition you can change this model depending on your convinience. For inital evaluation use random vectors of size size_p as you can giv it as input.
+%% input data definition you can change this model depending on your convinience. For inital evaluation use random vectors of size size_p as you can give it as input.
 x_targets=rand([1 size_p])
 pb=rand([1 size_p]);
 pf=rand([1 size_p]);

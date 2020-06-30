@@ -32,10 +32,34 @@ __3.__ After the main requirements are installed you must install the Deep Inver
 ```
 (run this on the deep_inv_opt main directory where the file setup.py is located).
 
-After Deep Inverse Optimization repository is set in Anaconda you can go to the matlab prompt and run the main example containing a linear model optimization following this command on the main directory you have located the .m files on this repository:
+After Deep Inverse Optimization repository is set in Anaconda you can go to the matlab prompt and run the main example containing a linear model optimization following this command on the main directory you have located the .m files from this repository:
 
 ```matlab 
    matlab_interface_python(40,20);
 ```
 
-
+The previous command will create an input vector of 40 random points and 40 target points from a uniform distribution between 0 ans 1, and will proceed with 20 training iterations. The final output of the model will be something like this:
+```bash 
+     inverse_parametric_linprog[0001]: loss=0.101617 weights=[2.8000]
+     inverse_parametric_linprog[0002]: loss=0.081102 weights=[2.9568]
+     inverse_parametric_linprog[0003]: loss=0.078752 weights=[3.0901]
+     inverse_parametric_linprog[0004]: loss=0.062718 weights=[3.1193]
+     inverse_parametric_linprog[0005]: loss=0.062531 weights=[3.1179]
+     inverse_parametric_linprog[0006]: loss=0.061715 weights=[3.1177]
+     inverse_parametric_linprog[0007]: loss=0.061681 weights=[3.1177]
+     inverse_parametric_linprog[0008]: loss=0.061229 weights=[3.1177]
+     inverse_parametric_linprog[0009]: loss=0.061196 weights=[3.1177]
+     inverse_parametric_linprog[0010]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0011]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0012]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0013]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0014]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0015]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0016]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0017]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0018]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0019]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[0020]: loss=0.061193 weights=[3.1177]
+     inverse_parametric_linprog[done]: loss=0.061193 weights=[3.1177]
+```
+     

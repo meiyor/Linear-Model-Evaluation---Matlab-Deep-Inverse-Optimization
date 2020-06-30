@@ -62,6 +62,6 @@ The previous command will create an input vector of 40 random points and 40 targ
      inverse_parametric_linprog[0020]: loss=0.061193 weights=[3.1177]
      inverse_parametric_linprog[done]: loss=0.061193 weights=[3.1177]
 ```
-For this particular model we want to make an inverse optimization on the paramater ![w](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) on a Bayesian model described on the following Equation:
+For this particular model we want to make an inverse optimization on the paramater w on a Bayesian model described on the following Equation:
 
-![\Large \hat{\omega}=\frac{p_{f}}{p_{f}+wp_{b}}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\omega}=\frac{p_{f}}{p_{f}&space;&plus;&space;w&space;p_{b}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\omega}=\frac{p_{f}}{p_{f}&space;&plus;&space;w&space;p_{b}}" title="\hat{\omega}=\frac{p_{f}}{p_{f} + w p_{b}}" /></a>

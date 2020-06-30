@@ -20,6 +20,8 @@ __1.__ Install Anaconda and Miniconda 3 prompt following the instructions docume
 __2.__ From the Anaconda prompt in Windows or Unix install the requirement packages from te __requirements.txt__ file added in this current repository following the next command on pip:
 
 ```bash  
-   pip install -r requirements.txt -
+   pip install -r requirements.txt
 ```
+(it will take a time, and be sure you have 5GB available in your HD for Conda installation)
 
+__3.__ After the main requirements are installed you must install the Deep Inverse Optimization (https://github.com/tankconcordia/deep_inv_opt)

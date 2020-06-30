@@ -1,3 +1,5 @@
+## code defined by 
+## modified by Juan Mayor-Torres
 import numpy as np
 import deep_inv_opt as io
 import deep_inv_opt.plot as iop
@@ -5,19 +7,20 @@ import sys
 
 import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.rcParams['figure.max_open_warning'] = 0  # Let the plots flow! ## this doesnt work in Anaconda prompt you need to use X11 or other interactive shell
+matplotlib.rcParams['figure.max_open_warning'] = 0  # Let the plots flow! ## this doesnt work in Anaconda prompt you need to use X11 or other interactive shell use plt.show to check the results instead
 #matplotlib inline
 
 import torch
 
 class ExamplePLP(io.ParametricLP):
     # x1= w_{hat}
-    # x2= w_{e}
-    # Generate an LP from a given feature vector u and weight vector w.
+    # x2= w_{e} For this two variables refer to the README file 
+    # Generate an LP from a given feature vector u and weight vector w. The final weight value w should be capture from the stdio
+    
     def generate(self, u, w): ##
         
         #c=[[u*w],[0.0]] ## cost function should be defined to the best convenience of the model
-        c = [[torch.cos(w + (u**2)/2)],
+        c = [[torch.cos(w + (u**2)/2)], ## define the cost function depending how do you want to modulate w and u across the model you can define here
              [torch.sin(w + (u**2)/2)]]
 
         A_ub = [[-1.0,  0.0],      # x1 >= 0

@@ -80,4 +80,4 @@ The final plot results and the particular example out is shown in the image belo
 
 ![results linear model inverse optimization](https://github.com/meiyor/Linear-Model-Evaluation---Matlab-Deep-Inverse-Optimization/blob/master/test_linear_model.jpg)
 
-The blue points are the values modified by w to follow the targets or the bigger black-points set from the random distributions. The loss decreases from 0.1763 to 0.0668
+The blue points are the values modified by w to follow the targets or the bigger black-points set from the random distributions. The loss decreases from 0.1764 to 0.06868

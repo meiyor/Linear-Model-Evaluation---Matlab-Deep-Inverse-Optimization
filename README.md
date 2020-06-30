@@ -15,4 +15,4 @@ Framework to parse parameters between Matlab and Python to do Deep Inverse Optim
 
 Follow the next steps before run the Matlab main code:
 
-1 Install Anaconda and Miniconda 3 prompt following the instructions documented in this link (https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html). 
+__1.__ Install Anaconda and Miniconda 3 prompt following the instructions documented in this link __(https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html)__. For Unix or Mac follow these instructions __(https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)__ or --__(https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html)__

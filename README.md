@@ -5,10 +5,11 @@ Framework to parse parameters between Matlab and Python to do Deep Inverse Optim
 #### This repository can parse any parameter from Matlab to the Python code described by the Deep Inverse Optimization repository.
 
 ### Requirements
-- Miniconda > 3
+- Miniconda 3
 - Anaconda 3
 - Matlab >= R2019a
 - Python 3.7
+- Pytorch
 - deep_inv_opt
 - numpy
 - matplotlib
@@ -16,3 +17,9 @@ Framework to parse parameters between Matlab and Python to do Deep Inverse Optim
 Follow the next steps before run the Matlab main code:
 
 __1.__ Install Anaconda and Miniconda 3 prompt following the instructions documented in this link __(https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html)__. For Unix or Mac follow these instructions __(https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)__ or --__(https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html)__
+__2.__ From the Anaconda prompt in Windows or Unix install the requirement packages from te __requirements.txt__ file added in this current repository following the next command on pip:
+
+```bash  
+   pip install -r requirements.txt -
+```
+

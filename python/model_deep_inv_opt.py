@@ -1,5 +1,6 @@
-## code defined by 
-## modified by Juan Mayor-Torres
+## code defined by Yingcong Tan, Concordia University
+## modified by Juan Mayor-Torres, Cardiff University
+
 import numpy as np
 import deep_inv_opt as io
 import deep_inv_opt.plot as iop

@@ -77,3 +77,7 @@ And for sake of the optimization we can define the matrix of equalities of our c
 <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{\omega}\left(1&plus;w&space;\frac{p_{b}}{p_{f}}\right)&plus;\omega_{e}0=\hat{\omega}\left(1&plus;wu\right)=1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\omega}\left(1&plus;w&space;\frac{p_{b}}{p_{f}}\right)&plus;\omega_{e}0=\hat{\omega}\left(1&plus;wu\right)=1" title="\hat{\omega}\left(1+w \frac{p_{b}}{p_{f}}\right)+\omega_{e}0=\hat{\omega}\left(1+wu\right)=1" /></a>
 
 The final plot results and the particular example out is shown in the image below:
+
+![results linear model inverse optimization](https://github.com/meiyor/Linear-Model-Evaluation---Matlab-Deep-Inverse-Optimization/blob/master/test_linear_model.jpg)
+
+The blue points are the values modified by w to follow the targets or the bigger black-points set from the random distributions. The loss decreases from 0.1763 to 0.0668

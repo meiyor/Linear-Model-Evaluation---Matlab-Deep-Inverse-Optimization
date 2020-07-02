@@ -1,4 +1,5 @@
 function  matlab_interface_python(size_p,iteration_number)
+%% Remeber to change the  Miniconda3 binary path, for Window in C:\Miniconda3\ and for Unix systems use /Users/your_user/anaconda/bin/
 load_anaconda_packages()
 cd deep_inv_opt-master
 %% learning range for w. This range need to be defined to find the better convergence on the inverse optimization. Please refer to the README file for more detail

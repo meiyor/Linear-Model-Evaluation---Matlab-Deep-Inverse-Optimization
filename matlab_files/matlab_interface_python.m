@@ -13,6 +13,6 @@ str_data_u=mat2str(u);
 str_data_x=mat2str(x_targets);
 %% u and x_targets are defined here as input for the python code. u is defined as the rate between Pb/Pf vectors for the model defined on the READ file, and the w value will be modulated on the python code directly for the estimation
 %% w will be the final output use the final weight output from the the stdout obtained from the Matlab results variable
-systemCommand = ['D:\Miniconda3\python.exe model_deep_inv_opt.py "', strrep(str_data_x(2:end-1),' ',','), '" "' strrep(str_data_u(2:end-1),' ',',') '" num2str(iteration_number) num2str(w[1]) num2str(w[2])'];
+systemCommand = ['D:\Miniconda3\python.exe ..\python\model_deep_inv_opt.py "', strrep(str_data_x(2:end-1),' ',','), '" "' strrep(str_data_u(2:end-1),' ',',') '" num2str(iteration_number) num2str(w(1)) num2str(w(2))'];
 [status,results]=system(systemCommand)
 cd ..

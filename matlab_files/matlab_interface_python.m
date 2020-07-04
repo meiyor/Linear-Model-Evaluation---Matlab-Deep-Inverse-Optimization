@@ -1,5 +1,5 @@
 function  matlab_interface_python(size_p,iteration_number,num_ini)
-%% set num_ini as the initial set of solutions you want to tune your inverse optimization if you want to parse into python use the method proposed here for the rest of the variables 
+%% set num_ini as the initial set of solutions (i.e, num_ini=2.5) you want to tune your inverse optimization if you want to parse into python use the method proposed here for the rest of the variables 
 %% Remeber to change the  Miniconda3 binary path, for Window in C:\Miniconda3\ and for Unix systems use /Users/your_user/anaconda/bin/
 load_anaconda_packages()
 cd deep_inv_opt-master

@@ -2,7 +2,7 @@ import numpy as np
 import deep_inv_opt as io
 import deep_inv_opt.plot as iop
 import sys
-
+#use this code if you need to parse more variables from Matlab depending on your suitability.
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.rcParams['figure.max_open_warning'] = 0  # Let the plots flow! ## this doesnt work in Anaconda prompt you need to use X11 or other interactive shell

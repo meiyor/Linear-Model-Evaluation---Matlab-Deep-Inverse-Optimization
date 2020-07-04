@@ -1,0 +1,227 @@
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+(1, 28) hii (1, 28) fii [[0.8619111  0.22548911 0.61636255 0.652832   0.58292247 0.96522179
+  0.59395962 0.77932962 0.74049541 0.38095871 0.75947853 0.76753092
+  0.72861507 0.418462   0.85378621 0.83560313 0.79862637 0.8802436
+  0.84820409 0.86043189 0.53231457 0.84601597 0.91270051 0.90783744
+  0.89511399 0.56724749 0.75931793 0.74008228]
+ [0.92138067 0.75945515 0.6659138  0.91849453 0.92668382 0.93670463
+  0.7560259  0.81812282 0.80541697 0.63270296 0.92273118 0.89120417
+  1.03559442 0.77453493 1.05955426 0.93532455 1.15559845 0.79849967
+  0.94263035 1.18058262 0.58731462 0.76536952 0.89405831 0.88641217
+  0.86176442 0.7178799  0.65836785 0.95057507]] wwii (2, 28)
+inverse_parametric_linprog[0001]: loss=0.628767 weights=[3.8000]
+inverse_parametric_linprog[0002]: loss=0.529338 weights=[2.8684]
+inverse_parametric_linprog[0003]: loss=0.337244 weights=[1.6121]
+inverse_parametric_linprog[0004]: loss=0.120173 weights=[0.6514]
+inverse_parametric_linprog[0005]: loss=0.044746 weights=[0.3338]
+inverse_parametric_linprog[0006]: loss=0.037503 weights=[0.0939]
+inverse_parametric_linprog[0007]: loss=0.026638 weights=[0.1990]
+inverse_parametric_linprog[0008]: loss=0.026193 weights=[0.1743]
+inverse_parametric_linprog[0009]: loss=0.026182 weights=[0.1841]
+inverse_parametric_linprog[0010]: loss=0.026175 weights=[0.1823]
+inverse_parametric_linprog[0011]: loss=0.026164 weights=[0.1797]
+inverse_parametric_linprog[0012]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0013]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0014]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0015]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0016]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0017]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0018]: loss=0.026161 weights=[0.1797]
+inverse_parametric_linprog[0019]: loss=0.026161 weights=[0.1797]
+Stopping early due to step_size < 1e-16.
+inverse_parametric_linprog[done]: loss=0.026161 weights=[0.1797]
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

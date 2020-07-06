@@ -4,7 +4,7 @@ function  [R1,R2,pval1,pval2]=matlab_interface_python_test_unix_squared(iter,num
 load_anaconda_packages_unix()
 cd deep_inv_opt-master
 close all;
-load('data_test.mat');
+load('data_test.mat'); %% choose the data you want for the right optimization
 x_targets=S.target_x;
 pb=S.pb';
 pf=S.pf';

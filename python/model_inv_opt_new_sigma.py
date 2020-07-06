@@ -25,7 +25,7 @@ class ExamplePLP(io.ParametricLP):
                 [1.0, 0.0],        # x1 <= 1
                 [0.0, 1.0],        # x2 <= 2.0
                 [0.0, 1.0+(u*(w**2))]]
-               # [-w, 0.0]]  
+               # [-w, 0.0]]  ## uncomment this only if you need to contraint only w positive values
                 
 
         b_ub = [[ 0.0],
@@ -33,7 +33,7 @@ class ExamplePLP(io.ParametricLP):
                 [2.0],
                 [2.0],
                 [4.0]]
-               # [0.0]]
+               # [0.0]] ## uncomment this only if you need to contraint only w positive values
 
         A_eq = [[1.0+(u*(w**2)),0.0]]
         

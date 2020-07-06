@@ -1,9 +1,10 @@
 
-function  [R1,R2,pval1,pval2]=matlab_interface_python_Christoph_unix_squared(iter,num_pos_sol,num_ini)
+function  [R1,R2,pval1,pval2]=matlab_interface_python_test_unix_squared(iter,num_pos_sol,num_ini)
+%% the model changed the w for w^2 please use the sigma .py files model_inv_opt_new_sigma.py attached int the python folder
 load_anaconda_packages_unix()
 cd deep_inv_opt-master
 close all;
-load('DataForJuan_second_opt.mat');
+load('data_test.mat');
 x_targets=S.target_x;
 pb=S.pb';
 pf=S.pf';
@@ -17,7 +18,7 @@ str_data_u=mat2str(u);
 str_data_x=mat2str(x_targets');
 %!python test_linear_model_deep_inv.py  "str_data"
 %systemCommand = ['D:\Miniconda3\python.exe test_linear_model_deep_inv.py "', strrep(str_data_x(2:end-1),' ',','), '" "' strrep(str_data_u(2:end-1),' ',',') '" 20'];
-systemCommand = ['/usr/bin/python3 -u model_christoph_inv_opt_new_sigma.py "', strrep(str_data_x(2:end-1),' ',','), '" "' strrep(str_data_u(2:end-1),' ',',') '" ' num2str(iter) ' ' num2str(num_pos_sol) ' ' num2str(num_ini) '| tee output_file_opt.txt'];
+systemCommand = ['/usr/bin/python3 -u model_inv_opt_new_sigma.py "', strrep(str_data_x(2:end-1),' ',','), '" "' strrep(str_data_u(2:end-1),' ',',') '" ' num2str(iter) ' ' num2str(num_pos_sol) ' ' num2str(num_ini) '| tee output_file_opt.txt'];
 [status,results]=system(systemCommand)
 systemCommand2= ['grep -n "weights" output_file_opt.txt | tail -f -n 1 > output_params.txt'];
 [status2,results2]=system(systemCommand2)

@@ -1,8 +1,8 @@
-function  [R1,R2,pval1,pval2]=matlab_interface_python_Christoph_unix(iter,num_pos_sol,num_ini)
+function  [R1,R2,pval1,pval2]=matlab_interface_python_test_unix(iter,num_pos_sol,num_ini)
 load_anaconda_packages_unix()
 cd deep_inv_opt-master
 close all;
-load('DataForJuan_second_opt.mat');
+load('data_test.mat'); ## load the data you want to optimize in here and declare them in the structure S
 x_targets=S.target_x;
 pb=S.pb';
 pf=S.pf';

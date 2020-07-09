@@ -1,4 +1,4 @@
-function  [P2n,R1,R2,pval1,pval2]=matlab_interface_python_Christoph_unix_squared(iter,num_pos_sol,num_ini)
+function  [P2n,R1,R2,pval1,pval2]=matlab_interface_python_unix_squared_alternative_new(iter,num_pos_sol,num_ini)
 load_anaconda_packages_unix()
 cd deep_inv_opt-master
 close all;

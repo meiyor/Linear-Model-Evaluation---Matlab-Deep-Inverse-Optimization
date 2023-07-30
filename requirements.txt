@@ -4,5 +4,6 @@ scipy==1.10.0
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch===1.13.1 
 torchvision===0.5.0
+## if you need it for a cpu install them
 #torch==1.2.0+cpu
 #torchvision==0.5.0+cpu

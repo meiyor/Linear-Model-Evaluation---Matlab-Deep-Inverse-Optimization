@@ -2,7 +2,7 @@ matplotlib==3.2.1
 numpy==1.18.5
 scipy==1.10.0    
 --find-links https://download.pytorch.org/whl/torch_stable.html
-torch===1.13.1 
+torch===2.2.0 
 torchvision===0.5.0
 ## if you need it for a cpu install them
 #torch==1.2.0+cpu

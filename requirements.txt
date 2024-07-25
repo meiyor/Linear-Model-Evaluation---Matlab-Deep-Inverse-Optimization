@@ -1,5 +1,5 @@
 matplotlib==3.2.1
-numpy==1.18.5
+numpy==1.19.0
 scipy==1.10.0    
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch>=2.2.0 
